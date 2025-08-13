@@ -11,7 +11,7 @@ jobs:
           - node-version: 18
             operating-system: ubunto-latest
         exclude:
-          - node-vertion: 12
+          - node-version: 12
             operating-system: windows-latest
     runs-on: ${{ matrix.operating-system }}
     steps:
